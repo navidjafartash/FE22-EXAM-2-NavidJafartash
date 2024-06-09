@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the header */
+header {
+    position: relative; 
+}
+
+
+.header-content {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+
+.headerimg {
+    width: 100%; 
+    height: 250px;
+    opacity:0.6;
+    
+}
+
+
+.wplanner {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: rgba(155, 158, 148, 0.753); 
+    padding: 10px 20px; 
+    font-size: 24px; 
+}
+
+
+
+.footer {
+    background-color: #e1dcdc;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+}
+.social-icons {
+    margin: 20px 0;
+}
+.social-icons a {
+    color: #000000;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px;
+}
+.newsletter {
+    margin: 20px 0;
+}
+.newsletter input[type="email"] {
+    padding: 10px;
+    width: 500px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.newsletter button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+.newsletter button:hover {
+    background-color: #0056b3;
+}
+.copyright {
+    margin-top: 20px;
+}
